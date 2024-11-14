@@ -24,6 +24,30 @@ Start by cloning the repository to your local machine:
 git clone https://github.com/yourusername/your-repository.git
 cd your-repository
 ```
+Create the Dockerfile
+
+In your project directory, create a `Dockerfile` to define the Docker image that will run the website. Here's how you can do it:
+
+**Navigate into your project directory** (if not already there):
+
+    ```bash
+    cd <your-project-directory>
+    ```
+
+**Create a `Dockerfile`** in this directory using `nano` or your preferred text editor:
+
+    ```bash
+    nano Dockerfile
+    ```
+
+ **Paste the contents** from the `Dockerfile`:
+
+
+**Save and exit**:
+   - Press `Ctrl + X`, then `Y` to confirm, and hit `Enter` to save.
+
+This `Dockerfile` uses the `nginx:alpine` image (a lightweight version of Nginx) and copies the contents of your repository into the appropriate directory for serving static files (`/usr/share/nginx/html`).
+
 ## Build the Docker Image
 
 Once you have the project files on your local machine, you can build the Docker image. This will use the `Dockerfile` to create an image that contains the necessary dependencies (like Nginx) and your website content.
