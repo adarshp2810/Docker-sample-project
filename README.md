@@ -23,3 +23,6 @@ Start by cloning the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/your-repository.git
 cd your-repository
+
+##Build the Docker Image
+Once you have the project files on your local machine, you can build the Docker image. This will use the Dockerfile to create an image that contains the necessary dependencies (like Nginx) and your website content.
