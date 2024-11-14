@@ -23,7 +23,7 @@ Start by cloning the repository to your local machine:
 git clone https://github.com/yourusername/your-repository.git
 cd your-repository
 ```
-###Create the Dockerfile
+### Create the Dockerfile
 
 In your project directory, create a `Dockerfile` to define the Docker image that will run the website. Here's how you can do it:
 
